@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  <script src="script/controller.js"></script>
+
+  <style>
+    table {
+      width: auto;
+      font: 17px Calibri;
+    }
+
+    table, th, td {
+      border: solid 1px #DDD;
+      border-collapse: collapse;
+      padding: 2px 3px;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div ng-app="myApp" ng-controller="myController">
+    <h1>FALCONIFORMI</h1>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Nome uccello</th>
+        <th>Famiglia Uccello</th>
+      </tr>
+
+      <tr ng-repeat="uccelli in list">
+        <td>{{uccelli.ID}}</td>
+        <td>{{uccelli.Name}}</td>
+        <td>{{uccelli.Type}}</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>

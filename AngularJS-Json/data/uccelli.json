@@ -1,0 +1,52 @@
+[
+  {
+    "ID": "001",
+    "Name": "Aquila reale ",
+    "Type": "Accipitridi"
+  },
+  {
+    "ID": "002",
+    "Name": "Poiana Comune",
+    "Type": "Accipitridi"
+  },
+  {
+    "ID": "003",
+    "Name": "Nibbio Reale",
+    "Type": "Accipitridi"
+  },
+  {
+    "ID": "004",
+    "Name": "Albanella reale ",
+    "Type": "Accipitridi"
+  },
+  {
+    "ID": "005",
+    "Name": "Falco Pellegrino ",
+    "Type": "Falconidi"
+  },
+  {
+    "ID": "006",
+    "Name": "Grillaio",
+    "Type": "Falconidi"
+  },
+  {
+    "ID": "007",
+    "Name": "Gheppio Comune",
+    "Type": "Falconidi"
+  },
+  {
+    "ID": "008",
+    "Name": "Nibbio Bruno",
+    "Type": "Accipitridi"
+  },
+  {
+    "ID": "009",
+    "Name": "Falco di Palude ",
+    "Type": "Accipitridi"
+  },
+  {
+    "ID": "010",
+    "Name": "Albanella Pallida ",
+    "Type": "Accipitridi"
+  }
+]
